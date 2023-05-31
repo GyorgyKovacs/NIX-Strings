@@ -1,0 +1,523 @@
+
+PS D:\gyorgy.kovacs> mvn clean install -X
+Apache Maven 3.8.7 (b89d5959fcde851dcb1c8946a785a163f14e1e29)     
+Maven home: C:\ProgramData\chocolatey\lib\maven\apache-maven-3.8.7
+Java version: 19, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-19
+Default locale: en_US, platform encoding: UTF-8
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from C:\ProgramData\chocolatey\lib\maven\apache-maven-3.8.7\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\Gyuri\.m2\settings.xml
+[DEBUG] Reading global toolchains from C:\ProgramData\chocolatey\lib\maven\apache-maven-3.8.7\conf\toolchains.xml
+[DEBUG] Reading user toolchains from C:\Users\Gyuri\.m2\toolchains.xml
+[DEBUG] Using local repository at C:\Users\Gyuri\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\Gyuri\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project com.nixsolutions.ppp:parent:pom:1.0.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.nixsolutions.ppp:parent:pom:1.0.0-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO]
+[INFO] --------------------< com.nixsolutions.ppp:parent >---------------------
+[INFO] Building parent 1.0.0-SNAPSHOT
+[INFO] --------------------------------[ pom ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process
+-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, te
+st, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process
+-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, te
+st, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://repository.apache.org/snapshots).
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process
+-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, te
+st, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process
+-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, te
+st, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process
+-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, te
+st, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.nixsolutions.ppp:parent:1.0.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): []
+[DEBUG] Repositories (dependencies): [gitlab-maven (https://gitlab.nixdev.co/api/v4/groups/446/-/packages/maven, default, releases+snapshots),
+ central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.5:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.reporting.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-checkstyle-plugin:3.1.2:check (validate)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <cacheFile default-value="${project.build.directory}/checkstyle-cachefile"/>
+  <checkstyleRulesHeader default-value="&lt;?xml version=&quot;1.0&quot;?&gt;&#10;&lt;!DOCTYPE module PUBLIC &quot;-//Checkstyle//DTD Checksty
+le Configuration 1.3//EN&quot;&#10;        &quot;https://checkstyle.org/dtds/configuration_1_3.dtd&quot;&gt;&#10;"/>
+  <configLocation default-value="sun_checks.xml">checkstyle.xml</configLocation>
+  <consoleOutput default-value="false">true</consoleOutput>
+  <encoding default-value="${project.build.sourceEncoding}">UTF-8</encoding>
+  <excludes>${checkstyle.excludes}</excludes>
+  <failOnViolation default-value="true">${checkstyle.failOnViolation}</failOnViolation>
+  <failsOnError default-value="false">true</failsOnError>
+  <headerLocation default-value="LICENSE.txt">${checkstyle.header.file}</headerLocation>
+  <includeResources default-value="true">${checkstyle.includeResources}</includeResources>
+  <includeTestResources default-value="true">${checkstyle.includeTestResources}</includeTestResources>
+  <includeTestSourceDirectory default-value="false"/>
+  <includes default-value="**\/*.java">${checkstyle.includes}</includes>
+  <logViolationCountToConsole default-value="true">${checkstyle.logViolationCount}</logViolationCountToConsole>
+  <logViolationsToConsole default-value="true">${checkstyle.console}</logViolationsToConsole>
+  <maxAllowedViolations default-value="0">${checkstyle.maxAllowedViolations}</maxAllowedViolations>
+  <omitIgnoredModules default-value="false"/>
+  <outputFile default-value="${project.build.directory}/checkstyle-result.xml">${checkstyle.output.file}</outputFile>
+  <outputFileFormat default-value="xml">${checkstyle.output.format}</outputFileFormat>
+  <plugin default-value="${plugin}"/>
+  <project default-value="${project}"/>
+  <propertiesLocation>${checkstyle.properties.location}</propertiesLocation>
+  <resourceExcludes>${checkstyle.resourceExcludes}</resourceExcludes>
+  <resourceIncludes default-value="**/*.properties">${checkstyle.resourceIncludes}</resourceIncludes>
+  <resources default-value="${project.resources}"/>
+  <rulesFiles default-value="${project.build.directory}/checkstyle-rules.xml">${checkstyle.output.rules.file}</rulesFiles>
+  <skip default-value="false">${checkstyle.skip}</skip>
+  <skipExec default-value="false">${checkstyle.skipExec}</skipExec>
+  <suppressionsFileExpression default-value="checkstyle.suppressions.file">${checkstyle.suppression.expression}</suppressionsFileExpression>  
+  <suppressionsLocation>${checkstyle.suppressions.location}</suppressionsLocation>
+  <testResources default-value="${project.testResources}"/>
+  <violationIgnore>${checkstyle.violation.ignore}</violationIgnore>
+  <violationSeverity default-value="error">${checkstyle.violationSeverity}</violationSeverity>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-install-plugin:2.4:install (default-install)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <artifact default-value="${project.artifact}"/>
+  <attachedArtifacts default-value="${project.attachedArtifacts}"/>
+  <createChecksum default-value="false">${createChecksum}</createChecksum>
+  <localRepository>${localRepository}</localRepository>
+  <packaging default-value="${project.packaging}"/>
+  <pomFile default-value="${project.file}"/>
+  <skip default-value="false">${maven.install.skip}</skip>
+  <updateReleaseInfo default-value="false">${updateReleaseInfo}</updateReleaseInfo>
+</configuration>
+[DEBUG] =======================================================================
+[INFO]
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ parent ---
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://people.apache.org/repo/m2-snapshot-repository).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=935500, ConflictMarker.markTime=127900, ConflictMarker.nodeCount=3, ConflictId
+Sorter.graphTime=565600, ConflictIdSorter.topsortTime=374100, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, Con
+flictResolver.totalTime=2680700, ConflictResolver.conflictItemCount=3, DefaultDependencyCollector.collectTime=40469800, DefaultDependencyColle
+ctor.transformTime=7225100}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.5:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:ma
+ven-clean-plugin:2.5, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@73d16e93]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.5:clean' with basic configurator -->
+[DEBUG]   (f) directory = D:\gyorgy.kovacs\target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = D:\gyorgy.kovacs\target\classes
+[DEBUG]   (f) reportDirectory = D:\gyorgy.kovacs\target\site
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = D:\gyorgy.kovacs\target\test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting D:\gyorgy.kovacs\target
+[INFO] Deleting file D:\gyorgy.kovacs\target\checkstyle-result.xml
+[INFO] Deleting file D:\gyorgy.kovacs\target\checkstyle-checker.xml
+[INFO] Deleting file D:\gyorgy.kovacs\target\checkstyle-cachefile
+[INFO] Deleting directory D:\gyorgy.kovacs\target
+[DEBUG] Skipping non-existing directory D:\gyorgy.kovacs\target\classes
+[DEBUG] Skipping non-existing directory D:\gyorgy.kovacs\target\test-classes
+[DEBUG] Skipping non-existing directory D:\gyorgy.kovacs\target\site
+[INFO]
+[INFO] --- maven-checkstyle-plugin:3.1.2:check (validate) @ parent ---
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for codehaus.snapshots (http://snapshots.repository.codehaus.org).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache-snapshots (http://people.apache.org/maven-snapshot-repository).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for codehaus-snapshots (http://snapshots.repository.codehaus.org).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://people.apache.org/maven-snapshot-repository).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for snapshots (http://snapshots.maven.codehaus.org/maven2).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for central (http://repo1.maven.org/maven2).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=722400, ConflictMarker.markTime=377200, ConflictMarker.nodeCount=295, Conflict
+IdSorter.graphTime=304600, ConflictIdSorter.topsortTime=76800, ConflictIdSorter.conflictIdCount=84, ConflictIdSorter.conflictIdCycleCount=0, C
+onflictResolver.totalTime=6631800, ConflictResolver.conflictItemCount=193, DefaultDependencyCollector.collectTime=613457200, DefaultDependency
+Collector.transformTime=8177600}
+[DEBUG] org.apache.maven.plugins:maven-checkstyle-plugin:jar:3.1.2
+[DEBUG]    com.puppycrawl.tools:checkstyle:jar:10.3:runtime
+[DEBUG]       info.picocli:picocli:jar:4.6.3:runtime
+[DEBUG]       org.antlr:antlr4-runtime:jar:4.10.1:runtime
+[DEBUG]       commons-beanutils:commons-beanutils:jar:1.9.4:compile
+[DEBUG]          commons-logging:commons-logging:jar:1.2:compile
+[DEBUG]       com.google.guava:guava:jar:31.1-jre:runtime
+[DEBUG]          com.google.guava:failureaccess:jar:1.0.1:runtime
+[DEBUG]          com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:runtime
+[DEBUG]          com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[DEBUG]          org.checkerframework:checker-qual:jar:3.12.0:runtime
+[DEBUG]          com.google.errorprone:error_prone_annotations:jar:2.11.0:runtime
+[DEBUG]          com.google.j2objc:j2objc-annotations:jar:1.3:runtime
+[DEBUG]       org.reflections:reflections:jar:0.10.2:runtime
+[DEBUG]          org.javassist:javassist:jar:3.28.0-GA:runtime
+[DEBUG]          org.slf4j:slf4j-api:jar:1.7.32:runtime
+[DEBUG]       net.sf.saxon:Saxon-HE:jar:11.3:runtime
+[DEBUG]          org.xmlresolver:xmlresolver:jar:4.2.0:runtime
+[DEBUG]             org.apache.httpcomponents:httpcore:jar:4.4.13:compile
+[DEBUG]          org.xmlresolver:xmlresolver:jar:data:4.2.0:runtime
+[DEBUG]    org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]    org.apache.maven.reporting:maven-reporting-api:jar:3.0:compile
+[DEBUG]    org.apache.maven.reporting:maven-reporting-impl:jar:2.3:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:0.6:compile
+[DEBUG]       org.apache.maven.doxia:doxia-core:jar:1.2:compile
+[DEBUG]          xerces:xercesImpl:jar:2.9.1:compile
+[DEBUG]             xml-apis:xml-apis:jar:1.3.04:compile
+[DEBUG]          org.apache.httpcomponents:httpclient:jar:4.0.2:compile
+[DEBUG]             commons-codec:commons-codec:jar:1.3:compile
+[DEBUG]       commons-validator:commons-validator:jar:1.3.1:compile
+[DEBUG]          commons-digester:commons-digester:jar:1.6:compile
+[DEBUG]    org.apache.maven.doxia:doxia-sink-api:jar:1.4:compile
+[DEBUG]       org.apache.maven.doxia:doxia-logging-api:jar:1.4:compile
+[DEBUG]    org.apache.maven.doxia:doxia-decoration-model:jar:1.4:compile
+[DEBUG]    org.apache.maven.doxia:doxia-site-renderer:jar:1.4:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-xhtml:jar:1.4:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-fml:jar:1.4:compile
+[DEBUG]       org.codehaus.plexus:plexus-i18n:jar:1.0-beta-7:compile
+[DEBUG]       org.apache.velocity:velocity-tools:jar:2.0:compile
+[DEBUG]          commons-chain:commons-chain:jar:1.1:compile
+[DEBUG]          dom4j:dom4j:jar:1.1:compile
+[DEBUG]          oro:oro:jar:2.0.8:compile
+[DEBUG]          sslext:sslext:jar:1.2-0:compile
+[DEBUG]          org.apache.struts:struts-core:jar:1.3.8:compile
+[DEBUG]             antlr:antlr:jar:2.7.2:compile
+[DEBUG]          org.apache.struts:struts-taglib:jar:1.3.8:compile
+[DEBUG]          org.apache.struts:struts-tiles:jar:1.3.8:compile
+[DEBUG]       commons-collections:commons-collections:jar:3.2.1:compile
+[DEBUG]    org.apache.maven.doxia:doxia-integration-tools:jar:1.6:compile
+[DEBUG]       commons-io:commons-io:jar:1.4:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.codehaus.plexus:plexus-component-annotations:jar:2.0.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-resources:jar:1.1.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.3.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.26:compile
+[DEBUG]    org.codehaus.plexus:plexus-velocity:jar:1.2:compile
+[DEBUG]    org.apache.velocity:velocity:jar:1.7:compile
+[DEBUG]       commons-lang:commons-lang:jar:2.4:compile
+[DEBUG]    javax.xml.bind:jaxb-api:jar:2.3.1:compile
+[DEBUG]       javax.activation:javax.activation-api:jar:1.2.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-checkstyle-plugin:3.1.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-checkstyle-plugin:3.1.2
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-checkstyle-plugin:3.1.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-checkstyle-plugin:jar:3.1.2
+[DEBUG]   Included: com.puppycrawl.tools:checkstyle:jar:10.3
+[DEBUG]   Included: info.picocli:picocli:jar:4.6.3
+[DEBUG]   Included: org.antlr:antlr4-runtime:jar:4.10.1
+[DEBUG]   Included: commons-beanutils:commons-beanutils:jar:1.9.4
+[DEBUG]   Included: commons-logging:commons-logging:jar:1.2
+[DEBUG]   Included: com.google.guava:guava:jar:31.1-jre
+[DEBUG]   Included: com.google.guava:failureaccess:jar:1.0.1
+[DEBUG]   Included: com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:3.0.2
+[DEBUG]   Included: org.checkerframework:checker-qual:jar:3.12.0
+[DEBUG]   Included: com.google.errorprone:error_prone_annotations:jar:2.11.0
+[DEBUG]   Included: com.google.j2objc:j2objc-annotations:jar:1.3
+[DEBUG]   Included: org.reflections:reflections:jar:0.10.2
+[DEBUG]   Included: org.javassist:javassist:jar:3.28.0-GA
+[DEBUG]   Included: net.sf.saxon:Saxon-HE:jar:11.3
+[DEBUG]   Included: org.xmlresolver:xmlresolver:jar:4.2.0
+[DEBUG]   Included: org.apache.httpcomponents:httpcore:jar:4.4.13
+[DEBUG]   Included: org.xmlresolver:xmlresolver:jar:data:4.2.0
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:3.0
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-impl:jar:2.3
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-core:jar:1.2
+[DEBUG]   Included: xerces:xercesImpl:jar:2.9.1
+[DEBUG]   Included: xml-apis:xml-apis:jar:1.3.04
+[DEBUG]   Included: org.apache.httpcomponents:httpclient:jar:4.0.2
+[DEBUG]   Included: commons-codec:commons-codec:jar:1.3
+[DEBUG]   Included: commons-validator:commons-validator:jar:1.3.1
+[DEBUG]   Included: commons-digester:commons-digester:jar:1.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.4
+[DEBUG]   Included: org.apache.maven.doxia:doxia-logging-api:jar:1.4
+[DEBUG]   Included: org.apache.maven.doxia:doxia-decoration-model:jar:1.4
+[DEBUG]   Included: org.apache.maven.doxia:doxia-site-renderer:jar:1.4
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-xhtml:jar:1.4
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-fml:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-i18n:jar:1.0-beta-7
+[DEBUG]   Included: org.apache.velocity:velocity-tools:jar:2.0
+[DEBUG]   Included: commons-chain:commons-chain:jar:1.1
+[DEBUG]   Included: dom4j:dom4j:jar:1.1
+[DEBUG]   Included: oro:oro:jar:2.0.8
+[DEBUG]   Included: sslext:sslext:jar:1.2-0
+[DEBUG]   Included: org.apache.struts:struts-core:jar:1.3.8
+[DEBUG]   Included: antlr:antlr:jar:2.7.2
+[DEBUG]   Included: org.apache.struts:struts-taglib:jar:1.3.8
+[DEBUG]   Included: org.apache.struts:struts-tiles:jar:1.3.8
+[DEBUG]   Included: commons-collections:commons-collections:jar:3.2.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-integration-tools:jar:1.6
+[DEBUG]   Included: commons-io:commons-io:jar:1.4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:2.0.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-resources:jar:1.1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.3.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.26
+[DEBUG]   Included: org.codehaus.plexus:plexus-velocity:jar:1.2
+[DEBUG]   Included: org.apache.velocity:velocity:jar:1.7
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.4
+[DEBUG]   Included: javax.xml.bind:jaxb-api:jar:2.3.1
+[DEBUG]   Included: javax.activation:javax.activation-api:jar:1.2.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-checkstyle-plugin:3.1.2:check from plugin realm ClassRealm[plugin>org.apache.maven.plu
+gins:maven-checkstyle-plugin:3.1.2, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@73d16e93]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-checkstyle-plugin:3.1.2:check' with basic configurator -->
+[DEBUG]   (f) cacheFile = D:\gyorgy.kovacs\target/checkstyle-cachefile
+[DEBUG]   (f) checkstyleRulesHeader = <?xml version="1.0"?>
+<!DOCTYPE module PUBLIC "-//Checkstyle//DTD Checkstyle Configuration 1.3//EN"
+        "https://checkstyle.org/dtds/configuration_1_3.dtd">
+
+[DEBUG]   (f) configLocation = checkstyle.xml
+[DEBUG]   (f) consoleOutput = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnViolation = true
+[DEBUG]   (f) failsOnError = true
+[DEBUG]   (f) headerLocation = LICENSE.txt
+[DEBUG]   (f) includeResources = true
+[DEBUG]   (f) includeTestResources = true
+[DEBUG]   (f) includeTestSourceDirectory = false
+[DEBUG]   (f) includes = **\/*.java
+[DEBUG]   (f) logViolationCountToConsole = true
+[DEBUG]   (f) logViolationsToConsole = true
+[DEBUG]   (f) maxAllowedViolations = 0
+[DEBUG]   (f) omitIgnoredModules = false
+[DEBUG]   (f) outputFile = D:\gyorgy.kovacs\target\checkstyle-result.xml
+[DEBUG]   (f) outputFileFormat = xml
+[DEBUG]   (f) plugin = Component Descriptor: role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugins.checkstyle.Checks
+tyleViolationCheckMojo', role hint: 'org.apache.maven.plugins:maven-checkstyle-plugin:3.1.2:check'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugins.checkstyle.CheckstyleReport', role hint: 'org.apache.maven.plu
+gins:maven-checkstyle-plugin:3.1.2:checkstyle'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugins.checkstyle.CheckstyleAggregateReport', role hint: 'org.apache.
+maven.plugins:maven-checkstyle-plugin:3.1.2:checkstyle-aggregate'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugins.checkstyle.HelpMojo', role hint: 'org.apache.maven.plugins:mav
+en-checkstyle-plugin:3.1.2:help'
+---
+[DEBUG]   (f) project = MavenProject: com.nixsolutions.ppp:parent:1.0.0-SNAPSHOT @ D:\gyorgy.kovacs\pom.xml
+[DEBUG]   (f) resourceIncludes = **/*.properties
+[DEBUG]   (f) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: D:\gyorgy.kovacs\src\main\resources, PatternSet [
+includes: {}, excludes: {}]}}]
+[DEBUG]   (f) rulesFiles = D:\gyorgy.kovacs\target\checkstyle-rules.xml
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) skipExec = false
+[DEBUG]   (f) suppressionsFileExpression = checkstyle.suppressions.file
+[DEBUG]   (f) testResources = [Resource {targetPath: null, filtering: false, FileSet {directory: D:\gyorgy.kovacs\src\test\resources, PatternS
+et [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) violationSeverity = error
+[DEBUG] -- end configuration --
+[DEBUG] executeCheckstyle start headerLocation : LICENSE.txt
+[DEBUG] The resources directory 'D:\gyorgy.kovacs\src\main\resources' does not exist or is not a directory.
+[DEBUG] The resources directory 'D:\gyorgy.kovacs\src\test\resources' does not exist or is not a directory.
+[DEBUG] Added 0 files to process.
+[DEBUG] request.getConfigLocation() checkstyle.xml
+[DEBUG] URLResourceLoader: No valid URL 'checkstyle.xml'
+[DEBUG] URLResourceLoader: No valid URL 'checkstyle.xml'
+[DEBUG] The resource 'checkstyle.xml' was not found with resourceLoader org.codehaus.plexus.resource.loader.URLResourceLoader.
+[DEBUG] The resource 'checkstyle.xml' was not found with resourceLoader org.codehaus.plexus.resource.loader.JarResourceLoader.
+[DEBUG] The resource 'checkstyle.xml' was found as D:\gyorgy.kovacs\checkstyle.xml.
+[DEBUG] headerLocation LICENSE.txt
+[DEBUG] URLResourceLoader: No valid URL 'LICENSE.txt'
+[DEBUG] URLResourceLoader: No valid URL 'LICENSE.txt'
+[DEBUG] The resource 'LICENSE.txt' was not found with resourceLoader org.codehaus.plexus.resource.loader.URLResourceLoader.
+[DEBUG] JarResourceLoader : trying to load "jar:file:/C:/Users/Gyuri/.m2/repository/com/puppycrawl/tools/checkstyle/10.3/checkstyle-10.3.jar" 
+[DEBUG] The resource 'LICENSE.txt' was not found with resourceLoader org.codehaus.plexus.resource.loader.JarResourceLoader.
+[DEBUG] The resource 'LICENSE.txt' was not found with resourceLoader org.codehaus.plexus.resource.loader.FileResourceLoader.
+[DEBUG] Unable to process header location: LICENSE.txt
+[DEBUG] Checkstyle will throw exception if ${checkstyle.header.file} is used
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO]
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ parent ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=113600, ConflictMarker.markTime=84900, ConflictMarker.nodeCount=38, ConflictId
+Sorter.graphTime=89700, ConflictIdSorter.topsortTime=18700, ConflictIdSorter.conflictIdCount=15, ConflictIdSorter.conflictIdCycleCount=0, Conf
+lictResolver.totalTime=356700, ConflictResolver.conflictItemCount=35, DefaultDependencyCollector.collectTime=46518800, DefaultDependencyCollec
+tor.transformTime=690100}
+[DEBUG] org.apache.maven.plugins:maven-install-plugin:jar:2.4
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-digest:jar:1.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.4
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.4
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.4
+[DEBUG]   Included: org.apache.maven.plugins:maven-install-plugin:jar:2.4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-digest:jar:1.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-install-plugin:2.4:install from plugin realm ClassRealm[plugin>org.apache.maven.plugin
+s:maven-install-plugin:2.4, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@73d16e93]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-install-plugin:2.4:install' with basic configurator -->
+[DEBUG]   (f) artifact = com.nixsolutions.ppp:parent:pom:1.0.0-SNAPSHOT
+[DEBUG]   (f) attachedArtifacts = []
+[DEBUG]   (f) createChecksum = false
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/Gyuri/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+   blocked: false
+
+[DEBUG]   (f) packaging = pom
+[DEBUG]   (f) pomFile = D:\gyorgy.kovacs\pom.xml
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) updateReleaseInfo = false
+[DEBUG] -- end configuration --
+[INFO] Installing D:\gyorgy.kovacs\pom.xml to C:\Users\Gyuri\.m2\repository\com\nixsolutions\ppp\parent\1.0.0-SNAPSHOT\parent-1.0.0-SNAPSHOT.p
+om
+[DEBUG] Writing tracking file C:\Users\Gyuri\.m2\repository\com\nixsolutions\ppp\parent\1.0.0-SNAPSHOT\_remote.repositories
+[DEBUG] Installing com.nixsolutions.ppp:parent:1.0.0-SNAPSHOT/maven-metadata.xml to C:\Users\Gyuri\.m2\repository\com\nixsolutions\ppp\parent\
+1.0.0-SNAPSHOT\maven-metadata-local.xml
+[DEBUG] Installing com.nixsolutions.ppp:parent/maven-metadata.xml to C:\Users\Gyuri\.m2\repository\com\nixsolutions\ppp\parent\maven-metadata-
+local.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.062 s
+[INFO] Finished at: 2023-05-31T16:35:10+02:00
+[INFO] ------------------------------------------------------------------------
+PS D:\gyorgy.kovacs> 
